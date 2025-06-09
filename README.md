@@ -1,11 +1,29 @@
-# Mood Mate - AI Powered Journaling Insights
-## What it does
-Mood Mate provides an intuitive and clean user interface that allows users to create journal entries. These entries are then fed to a bert text classification model which extracts tags based on the input. Then, the entries and those tags are sent to Google's Gemini API. This is where the insights are generated and provided to the user.
-## How to use
-To run the model, clone the repository and install required packages. Run it inside a Jupyter notebook. 
-Due to time constraints and issues with AI Studio and MLFlow, the frontend is not persistently connceted to the model. However, insights from Gemini are available at: https://v0-hp-mh-app.vercel.app/dashboard
-To self-serve the model, run all cells in the notebook.
-Front end code can be found at: https://github.com/Nhogg/MoodMate
+# Mood Mate - AI-Powered Journaling Insights
+
+## 🧠 What It Does
+
+Mood Mate provides an intuitive and clean user interface for journaling. When users submit journal entries, the text is processed by a BERT-based classification model that extracts emotional tags. These tags, along with the entry, are then sent to Google’s Gemini API to generate personalized insights and suggestions for the user.
+
+---
+
+## 🚀 How to Use
+
+1. **Clone the repository** and install the required Python packages.
+
+2. **Run the model locally** inside a Jupyter notebook:
+   - The notebook includes cells that load the model, perform classification, and send the data to Gemini.
+
+3. **Frontend access**:
+   - Due to time constraints and integration issues with AI Studio and MLflow, the frontend is not persistently connected to the model backend.
+   - However, you can explore the UI and view Gemini-generated insights at:  
+     🔗 [https://v0-hp-mh-app.vercel.app/dashboard](https://v0-hp-mh-app.vercel.app/dashboard)
+
+4. **To self-serve the model**:
+   - Open the Jupyter notebook and run all cells to classify journal entries and generate insights.
+
+---
+
+## 📄 License
 
 Copyright 2025 Nathan Hogg
 
